@@ -162,7 +162,6 @@ body {
     
 #welcome-section {
     height: 20vh;
-    padding:10rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
