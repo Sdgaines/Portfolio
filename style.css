@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-@media screen and (min-width: 450px ){
-    
-    * {
+ * {
         box-sizing: border-box;
         margin: 0;
     }
 
-    body {
+
+body {
         font-family: "Ubuntu", sans-serif;
         min-width: 900px;
     }
-    
-    #navbar {
+
+#navbar {
         position: fixed;
         top: 0;
         background-color: rgb(223, 118, 118);
@@ -24,7 +23,7 @@
         align-items: center;
     }
 
-    .nav-link {
+   .nav-link {
         color: rgb(247, 247, 247);
     }
 
@@ -32,6 +31,8 @@
         color: rgb(205, 205, 216);
     }
 
+@media screen and (min-width: 450px ){
+    
 #welcome-section {
     height: 50vh;
     padding: 100px;
@@ -158,35 +159,7 @@
 
 
 @media screen and (max-width: 550px ){
-    * {
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    body {
-        font-family: "Ubuntu", sans-serif;
-    }
     
-    #navbar {
-        position: fixed;
-        top: 0;
-        background-color: rgb(223, 118, 118);
-        width: 100%;
-        font-weight: bold;
-        padding: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .nav-link {
-        color: rgb(247, 247, 247);
-    }
-
-    #header{
-        color: rgb(205, 205, 216);
-    }
-
 #welcome-section {
     height: 50vh;
     padding:10rem 2rem;
