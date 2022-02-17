@@ -161,7 +161,7 @@ body {
 @media screen and (max-width: 550px ){
     
 #welcome-section {
-    height: 50vh;
+    height: 20vh;
     padding:10rem 2rem;
     display: flex;
     flex-direction: column;
@@ -240,7 +240,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 20vh;
     padding: 0 2rem;
     width: 100%;
     text-align: center;
