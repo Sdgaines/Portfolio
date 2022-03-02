@@ -71,7 +71,7 @@
 }
 
 
-#myData {
+.myData {
     padding: 50px;
     margin: 50px;
     text-align: start;
@@ -225,11 +225,11 @@
 }
 
 
-#para {
+.para {
     margin-bottom: 30px;
 }
 
-#myData {
+.myData {
     padding: 50px;
     margin: 50px;
     text-align: start;
