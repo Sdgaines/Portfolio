@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-@media screen and (min-width: 471px){
-    
-    * {
-        box-sizing: border-box;
-        margin: 0;
-    }
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
-    body {
-        font-family: "Ubuntu", sans-serif;
-    }
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+@media screen and (min-width: 471px){
     
     #navbar {
         position: fixed;
@@ -161,16 +161,9 @@
 
 
 @media screen and (max-width: 470px ){
-    * {
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    body {
-        font-family: "Ubuntu", sans-serif;
-    }
-    
+       
     #navbar {
+        height: 300px;
         position: fixed;
         top: 0;
         background-color: rgb(223, 118, 118);
@@ -233,6 +226,7 @@
     padding: 50px;
     margin: 50px;
     text-align: start;
+    font-size: 20px;
     
 }
 
