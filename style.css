@@ -168,7 +168,6 @@ body {
 @media screen and (max-width: 470px ){
        
     #navbar {
-        height: 300px;
         position: fixed;
         top: 0;
         background-color: rgb(223, 118, 118);
